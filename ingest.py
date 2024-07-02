@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from pprint import pprint
 
-connection_string = "postgresql+psycopg2://postgres:srini@localhost:5432/postgres"
+connection_string = "postgresql+psycopg2://postgres:password@localhost:5432/postgres"
 collection_name = "ai_search_vector"
 
 
