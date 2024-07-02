@@ -28,7 +28,7 @@ vectorstore = PGVector(
     use_jsonb=True,
 )
 
-query = "outdoor wall temp sensor"
+query = "who is ceo"
 similarity = vectorstore.similarity_search_with_score(query=query)
 
 for i in similarity:
